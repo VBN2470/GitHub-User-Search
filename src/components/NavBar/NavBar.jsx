@@ -10,7 +10,7 @@ export const NavBar = () => {
             <Navbar.Brand href="">
                 <h2 style={{ color: 'black' }}>
                     <i className="fab fa-github"></i> GitHub User Search
-                    </h2>
+                </h2>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
