@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const UserItem = ({ user }) => {
 
     const { avatar_url, login } = user;
-
+    
     return (
         <div className="card">
             <img 

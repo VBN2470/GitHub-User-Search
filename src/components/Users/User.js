@@ -10,8 +10,6 @@ export const User = ({ user, match, getUser, repos, getUserRepos }) => {
         getUserRepos(match.params.login, 4);
     }, []);
 
-    console.log(user);
-
     const { avatar_url, blog, company, followers, following, 
         html_url, location, login, name, public_repos } = user;
 
@@ -41,7 +39,7 @@ export const User = ({ user, match, getUser, repos, getUserRepos }) => {
                         <li>
                             {blog && 
                             <> 
-                                <i className="fas fa-globe"></i> <a href={`//${blog}`} target="_blank">{blog}</a>
+                                <i className="fas fa-globe"></i> {blog}
                             </>}
                         </li>
                     </ul>
