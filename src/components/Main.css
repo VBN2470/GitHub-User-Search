@@ -1,0 +1,109 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.5rem !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: #333;
+    border-radius: 4px;
+    color: white;
+    margin-right: 0.4rem;
+}
+
+.btn {
+    margin: 0.8rem;
+    margin-left: 0;
+    padding: 0.4rem 2rem !important;
+}
+
+.card {
+    background: rgb(216, 240, 248) !important;
+    border: 1px solid black !important;
+    text-align: center;
+    padding: 1rem 0.2rem;
+}
+
+.card > .btn {
+    margin: auto;
+}
+
+.profile {
+    background: rgb(224, 248, 255);
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem 0.2rem;
+}
+
+.container {
+    margin: auto;
+    margin-top: 1rem;
+    background: whitesmoke;
+    padding: 1rem;
+}
+
+.img {
+    margin: auto;
+    border-radius: 50%;
+}
+
+.repo {
+    background: rgb(209, 255, 209);
+    border-radius: 4px;
+    padding: 1rem 0.8rem;
+    margin-top: 10px;
+}
+
+.repos {
+    margin-top: 4px;
+    border: 1px black !important;
+    padding: 1rem 0.2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .btn {
+        margin: 0.8rem;
+        margin-left: 0;
+        padding: 0.4rem 1rem !important;
+    }
+
+    .card > h4 {
+        font-size: 12px;
+    }
+
+    .card > img {
+        width: 72px !important;
+    }
+
+    .profile {
+        background: rgb(224, 248, 255);
+        border: 1px solid black;
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem 0.2rem;
+    }
+
+    .badge {
+        display: inline-block;
+        padding: 0.5rem !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: small;
+        text-align: center;
+        background: #333;
+        border-radius: 4px;
+        color: white;
+        margin-bottom: 0.4rem;
+    }
+}
