@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/GitHub-User-Search/static/css/main.340ed27c.chunk.css",
+    "main.js": "/GitHub-User-Search/static/js/main.6581801c.chunk.js",
+    "main.js.map": "/GitHub-User-Search/static/js/main.6581801c.chunk.js.map",
+    "runtime-main.js": "/GitHub-User-Search/static/js/runtime-main.691903fa.js",
+    "runtime-main.js.map": "/GitHub-User-Search/static/js/runtime-main.691903fa.js.map",
+    "static/css/2.8c0e6b67.chunk.css": "/GitHub-User-Search/static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.8b17beec.chunk.js": "/GitHub-User-Search/static/js/2.8b17beec.chunk.js",
+    "static/js/2.8b17beec.chunk.js.map": "/GitHub-User-Search/static/js/2.8b17beec.chunk.js.map",
+    "index.html": "/GitHub-User-Search/index.html",
+    "static/css/2.8c0e6b67.chunk.css.map": "/GitHub-User-Search/static/css/2.8c0e6b67.chunk.css.map",
+    "static/css/main.340ed27c.chunk.css.map": "/GitHub-User-Search/static/css/main.340ed27c.chunk.css.map",
+    "static/js/2.8b17beec.chunk.js.LICENSE.txt": "/GitHub-User-Search/static/js/2.8b17beec.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.691903fa.js",
+    "static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.8b17beec.chunk.js",
+    "static/css/main.340ed27c.chunk.css",
+    "static/js/main.6581801c.chunk.js"
+  ]
+}
